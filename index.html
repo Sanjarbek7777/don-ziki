@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <div class="container mx-auto mt-5 border rounded p-3 d-flex justify-content-between" style="width: 500px">
+    <div class="d-flex flex-column">
+      <span class="font-weight-bold text-white text-uppercase">rock</span>
+      <span class="font-weight-bold text-white text-uppercase">paper</span>
+      <span class="font-weight-bold text-white text-uppercase">scissors</span>
+    </div>
+
+    <div class="d-flex flex-column align-items-center bg-white rounded p-3">
+      <span >SCORE</span >
+      <output><h3 class="js-score-output font-weight-bold m-0">0</h3></output>
+    </div>
+  </div>
+
+  <div class="container d-flex flex-column mt-5">
+    <div class="d-flex align-items-center mx-auto" style="width: 700px;">
+      <button class="js-rock-btn btn" type="submit">
+        <img src="./img/rock.svg" alt="picture rock" width="200" height="200">
+      </button>
+      <button class="js-paper-btn btn" type="submit">
+        <img src="./img/paper.svg" alt="picture paper" width="200" height="200">
+      </button>
+      <button class="js-scissors-btn btn" type="submit">
+        <img src="./img/scissors.svg" alt="picture scissors" width="200" height="200">
+      </button>
+    </div>
+      <output class="mt-5 font-weight-bold text-white"><h2 class="js-win-output mx-auto" style="width: 200px;"></h2></output>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
