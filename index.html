@@ -35,7 +35,17 @@
         <img src="./img/scissors.svg" alt="picture scissors" width="200" height="200">
       </button>
     </div>
-      <output class="mt-5 font-weight-bold text-white"><h2 class="js-win-output mx-auto" style="width: 200px;"></h2></output>
+    <div class="w-100 d-flex align-items-center">
+      <div class="mt-5 d-flex flex-column">
+        <output class="font-weight-bold text-white mb-1">Player: <span class="js-win-output" style="width: 200px;"> 0</span></output>
+        <output class="font-weight-bold text-white mb-1">Computer: <span class="js-lose-output" style="width: 200px;"> 0</span></output>
+        <output class="font-weight-bold text-white">Draws: <span class="js-draw-output" style="width: 200px;"> 0</span></output>
+      </div>
+
+      <div class="mx-auto" style="width: 300px;">
+        <h1 class="js-win-lose-output font-weight-bold text-warning mt-5" style="width: 200px;"></h1>
+      </div>
+    </div>
   </div>
 
   <script src="js/main.js"></script>
